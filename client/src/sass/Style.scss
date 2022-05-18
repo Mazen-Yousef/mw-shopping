@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  #root{
+    height: 100vh;
+  }
+  .App{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    height: 100%;
+    grid-template-rows: 3rem 1fr  3rem;
+  }
+  
+  header{
+    grid-area: header;
+  }
+    
+  main{
+    grid-area: main;
+  }
+  footer{
+    grid-area: footer;
+  }
