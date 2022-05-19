@@ -1,0 +1,27 @@
+.checkoutForm{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    z-index: 1;
+    .button{
+        background-color: #212121;
+        border: solid ;
+        width: 70%;
+        margin-left: 15rem;
+        margin-bottom: 1rem;
+        padding: 1rem 0;
+        
+    }
+
+
+
+    .closeIcon{
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
