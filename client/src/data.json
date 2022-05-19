@@ -1,0 +1,42 @@
+[
+  {
+    "key": 1,
+    "type": "Jeans",
+    "title": "jeans",
+    "imgUrl": "/Img/product-A1.jpg",
+    "desc": "These are jeans for men",
+    "descM": "These are jeans for men These are jeans for men These are jeans for men These are jeans for men These are jeans for men These are jeans for men",
+    "prise": 50,
+    "sizes": ["M", "L", "XL"]
+  },
+  {
+    "key": 2,
+    "type": "Jeans",
+    "title": "Short jeans",
+    "imgUrl": "/Img/product-A2.jpg",
+    "desc": "These are jeans for women",
+    "descM": "These are jeans for women These are jeans for women These are jeans for women These are jeans for women These are jeans for women These are jeans for women These are jeans for women",
+    "prise": 80,
+    "sizes": ["S", "M", "L"]
+  },
+  {
+    "key": 3,
+    "type": "Shoes",
+    "title": "sneaker",
+    "imgUrl": "/Img/product-A3.jpg",
+    "desc": "These are sneakers",
+    "descM": "These are sneakers These are sneakers These are sneakers These are sneakers These are sneakers These are sneakers These are sneakers These are sneakers",
+    "prise": 40,
+    "sizes": ["38", "40", "42"]
+  },
+  {
+    "key": 4,
+    "type": "Shirt",
+    "title": "Men shirt",
+    "imgUrl": "/Img/product-A4.jpg",
+    "desc": "These are men's shirts ",
+    "descM": "These are men's shirtsThese are men's shirtsThese are men's shirtsThese are men's shirtsThese are men's shirtsThese are men's shirtsThese are men's shirts",
+    "prise": 30,
+    "sizes": ["M", "S", "XL"]
+  }
+]

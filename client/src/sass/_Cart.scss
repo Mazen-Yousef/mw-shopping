@@ -1,0 +1,41 @@
+.cart{
+
+    h3{
+        margin-right: 2rem;
+        border-bottom: 1px solid #212121;
+        padding-bottom: 1rem;
+    }
+    .cartItem{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .cartInfo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex: 1;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            border-bottom: 1px solid #212121;
+           
+            .cardInfoTitle{
+                display:flex;
+                p{
+                   padding: 5px;
+                }
+
+            }
+        }
+       
+    }
+   
+  
+} .cartFooter{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+  .button{
+            background-color: #212121;
+            border: solid ;
+        }

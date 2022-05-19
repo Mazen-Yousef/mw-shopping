@@ -1,3 +1,14 @@
+@import '_Header.scss';  
+@import '_Footer.scss'; 
+@import '_Products.scss'; 
+@import '_Filter.scss'; 
+@import '_Main.scss'; 
+@import '_ModalProduct.scss'; 
+@import '_Cart.scss'; 
+@import '_CheckoutForm.scss'; 
+@import '_Input.scss'; 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +17,7 @@
   #root{
     height: 100vh;
   }
+
   .App{
     display: grid;
     grid-template-areas:
@@ -13,16 +25,7 @@
     "main"
     "footer";
     height: 100%;
-    grid-template-rows: 3rem 1fr  3rem;
+    grid-template-rows: 4rem 1fr  6rem;
   }
   
-  header{
-    grid-area: header;
-  }
-    
-  main{
-    grid-area: main;
-  }
-  footer{
-    grid-area: footer;
-  }
+

@@ -1,0 +1,15 @@
+main{
+    grid-area: main;
+   
+  }
+.products_filter{
+   display: flex;
+   justify-content: space-between;
+   .products{
+     width: 75%;
+   }
+   .filter{
+     width: 25% ;
+   }
+  
+}
